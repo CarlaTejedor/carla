@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: cursive;
+    color: azure;
+    
+  }
+  
+  body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_640.jpg);
+  
+  }
+  
+  header,
+  main,
+  footer {
+  padding: 20px;
+  }
+  
+  .img-header{
+    margin: 0 0 0 -16px;
+  }
+  
+  .h1-header{
+    margin: 0 0 0 0;
+    color: azure;
+    }
+  
+  header h1{
+    margin: 0 0 0 159px;
+    font-size: 50px;
+  }
+  .container-nav{
+    margin: 0 0 0 5px;
+  
+    
+  }
+   
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+    
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+  
+  }
+  
+  header ul li {    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;     
+  }
+   
+  header img {
+    width: 120px;
+  }
+    
+  main {  
+    width: 100%;
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+
+  main ul{
+  margin: 0 0 0 0;
+  float: left;
+  }
+
+  main ul li {
+    font-size: 23px;
+    margin: 15px 270px 0 -73px;
+  }
+  /*section class Sinopsis{
+    background-image: url(https://rickandmorty-finalproject-mairaledesma.vercel.app/img/Rick_and_Morty_Season_1.webp);
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: first baseline;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+    display: flex;
+    }*/
+  
+  .sinopsis{
+    /*background-image: url(https://rickandmorty-finalproject-mairaledesma.vercel.app/img/Rick_and_Morty_Season_1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;*/
+    
+ padding: 10px;
+ margin: 10px; 
+ justify-content:center;
+ align-items: first baseline; 
+ text-decoration: none; 
+ font-family: cursive
+ float: right;
+ display: flex;
+ flex-wrap: wrap;}
+
+  .sinopsis h2{
+    font-size: 32px;
+    color: azure;
+  }
+  
+  .sinopsis p {
+      font-size: 22px;
+      margin: 10px 0 0 0;
+      color: white;
+  }
+  
+  main ul li{
+    color: azure;
+  }
+  /*.img sinopsis*/
+  
+  .sinopsis img{
+    width: 200px;
+    margin: 15px;
+      
+  }
+  
+  main h2{
+    font-size: 34px;
+    text-align: center;
+    color: azure;
+  }
+  
+  .container-personajes{
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+  }
+      .grid-item {
+      background-color: brown;
+      margin: 7px; 
+      padding: 20px; 
+      width: 178px; 
+      text-align: center;
+      border-radius: 30px; 
+      align-items: center;  
+      margin-top: 10px;
+  
+  }
+  .grid-item img {
+    width: 100px;
+    border-radius: 50%;
+   }
+    .contenedor-mira{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .miraLaSerie {
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    text-decoration: none
+  }
+  .miraLaSerie h2 {
+    padding: 10px;
+    margin: 5px;
+    font-family: cursive
+    font-size: 30px;
+  
+  }
+  .miraLaSerie p{
+    margin: 0 44px 14px 42px;
+    font-weight: bold;
+  }
+    footer {
+    background-color: brown;
+  }
+    footer {
+    display: flex;
+    justify-content: space-between;
+  }
+    footer ul {
+    list-style: none;
+  }
+    footer ul li {
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px;
+    }
+  
+  
+  @media(max-width:480px){
+    .img-header{
+      margin: 0 0 0 -16px;
+    }
+  
+    .h1-header {
+      margin: -14px 0 0 0;
+  }
+  
+    header h1{
+      margin: 0 0 0 21px;
+      font-size: 33px;
+      text-align: center;
+    }
+  
+    .container-nav{
+      margin: 0 0 0 5px;
+    }
+  
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+  
+    header ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      margin: 0 16px 0 0;
+    }
+  
+    header ul li {
+      background-color: rgb(210, 210, 90);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: 10px;
+      padding: 10px;
+  
+    }
+  
+    main ul li {
+      font-size: 23px;
+      margin: 15px 0 0 29px;
+  }
+  
+  .grid-item {
+  
+    width: 224px;
+  
+  }
+  
+};
